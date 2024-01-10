@@ -25,14 +25,14 @@ No caso de Obter os produtos voce pode colocar um filtro ou não
 http://localhost:52079/api/produtos?filtro=Eletronico a partir desse filtro ele ira pesquisar no banco pelo Nome e pela Categoria.
 Caso não informe ele retornará todos os dados do banco => http://localhost:52079/api/produtos
 
-POST
+POST (http://localhost:52079/api/produtos) - 
 Ele irá realizar uma inserção de acordo com o modelo JSON que ta no arquivo de colection
 Caso voce insira um valor negativo, 0 ou string será disparado um erro
 
-PUT (http://localhost:52079/api/produtos/{id})
+PUT (http://localhost:52079/api/produtos/{id}) - 
 Atualização de um produto existente
 
-DELETE (http://localhost:52079/api/produtos/{id})
+DELETE (http://localhost:52079/api/produtos/{id}) - 
 Exclusão de um produto existente
 O produto que foi excluido será retornado apos finalizada a requisição
 
